@@ -55,9 +55,8 @@ body {
     font-size: 14px;
 }
 
-#search-bar {
-    margin: 0px 10px;
-    flex-grow: 1;
+#search-input-cont {
+    flex: 1;
 }
 
 #search-input {
