@@ -5,4 +5,5 @@ Feel free to fork and customise to your needs, or help me add new features or fi
 
 ## Demo
 
-![Demo](demo.mp4?raw=true)
+https://user-images.githubusercontent.com/9361126/181482001-7ff1ce4f-a8a8-4eb4-855d-fddb8181b883.mp4
+
