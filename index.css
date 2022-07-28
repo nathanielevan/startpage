@@ -13,7 +13,7 @@ body {
 }
 
 #user-greeting {
-    margin: 10px 0px;
+    margin: 0px 0px 10px 0px;
     font-size: 22px;
     font-weight: normal;
     color: #e2d3ba;
