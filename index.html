@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="main-container">
+            <div id="user-greeting">
+                <span id="time-greeting"></span> The time is:
+            </div>
+            <div id="current-time">
+                <span id="current-time-text"></span></h1>
+            </div>
+            <div id="search">
+                <div id="search-select">
+                    <select name="search-engine" class="button" id="search-engine-select">
+                        <option value="google">Google</option>
+                        <option value="bing">Bing</option>
+                        <option value="ddg" selected="selected">DuckDuckGo</option>
+                    </select>
+                </div>
+                <div id="search-bar">
+                    <input id="search-input" placeholder="Enter search term here"/>
+                </div>
+                <div id="search-button-div">
+                    <button class="button" id="search-button" onclick="doSearch()">Search</button>
+                </div>
+            </div>
+            <div id="links">
+                <div class="link-group" id="general">
+                    <ul>
+                        <li class="link-group-title">General</li>
+                        <li><a href="https://en.wikipedia.org" class="quick-link">Wikipedia</a></li>
+                        <li><a href="https://www.gmail.com" class="quick-link">Gmail</a></li>
+                        <li><a href="https://wttr.in" class="quick-link">wttr.in</a></li>
+                        <li><a href="https://www.popularfront.co" class="quick-link">Popular Front</a></li>
+                    </ul>
+                </div>
+                <div class="link-group" id="dev">
+                    <ul>
+                        <li class="link-group-title">Dev</li>
+                        <li><a href="https://www.stackoverflow.com" class="quick-link">Stack Overflow</a></li>
+                        <li><a href="https://www.github.com" class="quick-link">GitHub</a></li>
+                        <li><a href="https://wiki.archlinux.org" class="quick-link">Arch Wiki</a></li>
+                        <li><a href="https://developer.mozilla.org" class="quick-link">MDN Web Docs</a></li>
+                    </ul>
+                </div>
+                <div class="link-group" id="media">
+                    <ul>
+                        <li class="link-group-title">Media</li>
+                        <li><a href="https://www.youtube.com" class="quick-link">YouTube</a></li>
+                        <li><a href="https://www.soundcloud.com" class="quick-link">SoundCloud</a></li>
+                        <li><a href="https://open.spotify.com" class="quick-link">Spotify Web</a></li>
+                        <li><a href="https://www.bandcamp.com" class="quick-link">Bandcamp</a></li>
+                    </ul>
+                </div>
+                <div class="link-group" id="socials">
+                    <ul>
+                        <li class="link-group-title">Socials</li>
+                        <li><a href="https://www.discord.com" class="quick-link">Discord</a></li>
+                        <li><a href="https://www.reddit.com" class="quick-link">Reddit</a></li>
+                        <li><a href="https://www.twitter.com" class="quick-link">Twitter</a></li>
+                        <li><a href="https://web.whatsapp.com" class="quick-link">WhatsApp Web</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
