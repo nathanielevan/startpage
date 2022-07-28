@@ -1,6 +1,7 @@
 body {
     background-color: #282828;
     font-family: "Inter", sans-serif;
+    margin: 0px;
 }
 
 #main-container {
@@ -135,7 +136,7 @@ a {
 
 @media (max-width: 800px) {
     #main-container {
-        width: 81%;
+        width: 80%;
     }
 }
 
