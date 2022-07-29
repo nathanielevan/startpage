@@ -10,6 +10,7 @@ body {
     width: 640px;
     height: 100%;
     flex-direction: column;
+    align-items: stretch;
     justify-content: center;
 }
 
@@ -32,7 +33,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 40px 0px 15px 0px;
-    width: 100%;
     padding: 10px;
     background-color: #32302f;
     border-radius: 8px;
@@ -92,7 +92,6 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 14px;
-    width: 100%;
     gap: 10px;
     flex-wrap: wrap;
 }
