@@ -157,6 +157,12 @@ a {
     }
 }
 
+@media (max-height: 400px) {
+    #main-container {
+        height: 400px;
+    }
+}
+
 @media (max-width: 650px) and (max-height: 640px) {
     #main-container {
         height: 640px;
