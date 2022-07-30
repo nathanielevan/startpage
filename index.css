@@ -162,3 +162,31 @@ a {
         height: 640px;
     }
 }
+
+/* Fix for very narrow screens e.g. Galaxy Fold */
+@media (max-width: 350px) {
+    #main-container {
+        height: min-content;
+        margin: 30px auto;
+    }
+
+    .link-group {
+        flex: 100%;
+    }
+
+    #user-greeting {
+        font-size: 6vmin;
+    }
+
+    #current-time {
+        font-size: 10vmin;
+    }
+
+    #search {
+        font-size: 4vmin;
+    }
+
+    #links {
+        font-size: 4vmin;
+    }
+}
