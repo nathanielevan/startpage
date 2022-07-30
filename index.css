@@ -16,13 +16,13 @@ body {
 
 #user-greeting {
     margin: 0px 0px 10px 0px;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: normal;
     color: #e2d3ba;
 }
 
 #current-time {
-    font-size: 46px;
+    font-size: 35px;
     font-weight: normal;
     color: #d8a657;
 }
