@@ -123,21 +123,23 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e2d3ba;
-}
-
-.quick-link {
     display: inline-block;
     padding: 2px 0px;
-    margin: 2px 0px;
+    width: 100%;
+}
+
+.link-text {
+    display: inline-block;
+    padding: 2px 0px;
     background: linear-gradient(#d8a657, #d8a657);
     background-size: 0 0.1em;
     background-position: 0 100%;
     background-repeat: no-repeat;
     transition: background-size 250ms, color 250ms;
+    color: #e2d3ba;
 }
 
-.quick-link:hover {
+a:hover > .link-text {
     background-size: 100% 0.1em;
     color: #d8a657;
 }
