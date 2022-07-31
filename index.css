@@ -1,7 +1,12 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #282828;
     font-family: "Inter", sans-serif;
     margin: 0px;
+    height: 100%;
 }
 
 #main-container {
