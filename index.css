@@ -17,6 +17,7 @@ body {
 
 #user-greeting {
     margin: 0px 0px 10px 0px;
+    margin-top: 30px;
     font-size: 21px;
     font-weight: normal;
     color: #e2d3ba;
@@ -96,6 +97,7 @@ body {
     font-size: 14px;
     gap: 10px;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .link-group {
