@@ -149,11 +149,7 @@ a:hover > .link-text {
 }
 
 @media (max-width: 650px) {
-    #search-engine-cont {
-        width: 100%;
-    }
-
-    #search-engine-select {
+    #search-engine-cont, #search-engine-select {
         width: 100%;
     }
 
