@@ -162,4 +162,8 @@ a:hover > .link-text {
     .link-group {
         flex: 100%;
     }
+
+    #search-button-cont, #search-button {
+        width: 100%;
+    }
 }
