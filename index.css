@@ -1,5 +1,16 @@
+:root {
+    --bg-color: #282828; /* background color */
+    --fg-color: #e2d3ba; /* default foreground color */
+    --fg-highlight: #d8a657; /* foreground color for "highlighted" items */
+    --pane-bg-color: #32302f; /* background color for panes e.g. search bar and link containers */
+    --button-color: #45403d; /* background color for buttons */
+    --text-input-underline-unfocused: #7c6f64; /* underline color for text input when not focused */
+    --text-input-underline-focused: var(--fg-highlight); /* underline color for text input when focused */
+    --shadow-color: #1d2021; /* shadow color */
+}
+
 body {
-    background-color: #282828;
+    background-color: var(--bg-color);
     font-family: "Inter", sans-serif;
     margin: 0px;
     min-height: 100vh;
@@ -20,13 +31,13 @@ body {
     margin-top: 30px;
     font-size: 21px;
     font-weight: normal;
-    color: #e2d3ba;
+    color: var(--fg-color);
 }
 
 #current-time {
     font-size: 35px;
     font-weight: normal;
-    color: #d8a657;
+    color: var(--fg-highlight);
 }
 
 #search {
@@ -36,17 +47,17 @@ body {
     align-items: center;
     margin-top: 10px;
     padding: 10px;
-    background-color: #32302f;
+    background-color: var(--pane-bg-color);
     border-radius: 8px;
-    box-shadow: 5px 5px 3px 0px #1d2021;
+    box-shadow: 5px 5px 3px 0px var(--shadow-color);
     box-sizing: border-box;
     gap: 10px;
     font-size: 14px;
 }
 
 .button {
-    background-color: #45403d;
-    color: #e2d3ba;
+    background-color: var(--button-color);
+    color: var(--fg-color);
     border-radius: 8px;
     border-style: none;
 }
@@ -67,14 +78,15 @@ body {
 }
 
 #search-input {
-    background: linear-gradient(#7c6f64, #7c6f64), linear-gradient(#d8a657, #d8a657);
+    background: linear-gradient(var(--text-input-underline-unfocused), var(--text-input-underline-unfocused)),
+                linear-gradient(var(--text-input-underline-focused), var(--text-input-underline-focused));
     background-size: 100% 0.1em, 0 0.1em;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
     transition: background-size 400ms ease;
     border: none;
     outline: none;
-    color: #e2d3ba;
+    color: var(--fg-color);
     padding: 0.6em 0;
     width: 100%;
     font-family: inherit;
@@ -102,14 +114,14 @@ body {
 
 .link-group {
     padding: 10px;
-    background-color: #32302f;
+    background-color: var(--pane-bg-color);
     border-radius: 8px;
-    box-shadow: 5px 5px 3px 0px #1d2021;
+    box-shadow: 5px 5px 3px 0px var(--shadow-color);
     flex: 1 1 0%;
 } 
 
 .link-group-title {
-    color: #d8a657;
+    color: var(--fg-highlight);
     margin-bottom: 10px;
 }
 
@@ -129,17 +141,17 @@ a {
 .link-text {
     display: inline-block;
     padding: 2px 0px;
-    background: linear-gradient(#d8a657, #d8a657);
+    background: linear-gradient(var(--fg-highlight), var(--fg-highlight));
     background-size: 0 0.1em;
     background-position: 0 100%;
     background-repeat: no-repeat;
     transition: background-size 250ms, color 250ms;
-    color: #e2d3ba;
+    color: var(--fg-color);
 }
 
 a:hover > .link-text {
     background-size: 100% 0.1em;
-    color: #d8a657;
+    color: var(--fg-highlight);
 }
 
 @media (max-width: 800px) {
