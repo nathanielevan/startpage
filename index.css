@@ -69,6 +69,7 @@ body {
 
 #search-engine-select {
     padding: 0.6em 10px;
+    width: 100%;
     border-right: 10px solid transparent;
     font-family: inherit;
     font-size: inherit;
@@ -100,6 +101,7 @@ body {
 
 #search-button {
     padding: 0.6em 12px;
+    width: 100%;
     font-family: inherit;
     font-size: inherit;
 }
@@ -159,7 +161,7 @@ a:hover > .link-text {
 }
 
 @media (max-width: 650px) {
-    #search-engine-cont, #search-engine-select {
+    #search-engine-cont {
         width: 100%;
     }
 
@@ -169,7 +171,7 @@ a:hover > .link-text {
 }
 
 @media (max-width: 350px) {
-    #search-button-cont, #search-button {
+    #search-button-cont {
         width: 100%;
 
     }
