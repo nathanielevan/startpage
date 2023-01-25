@@ -105,11 +105,10 @@ body {
 }
 
 #links {
-    display: flex;
-    flex-direction: row;
+    display: grid;
     font-size: 14px;
     gap: 10px;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .link-group {
@@ -117,7 +116,6 @@ body {
     background-color: var(--pane-bg-color);
     border-radius: 8px;
     box-shadow: 5px 5px 3px 0px var(--shadow-color);
-    flex: 1 1 0%;
 } 
 
 .link-group-title {
@@ -165,17 +163,17 @@ a:hover > .link-text {
         width: 100%;
     }
 
-    .link-group {
-        flex: 1 1 40%;
+    #links {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 350px) {
-    .link-group {
-        flex: 100%;
-    }
-
     #search-button-cont, #search-button {
         width: 100%;
+
+    }
+    #links {
+        grid-template-columns: 1fr;
     }
 }
