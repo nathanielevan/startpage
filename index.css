@@ -29,7 +29,7 @@ body {
     gap: 10px;
 }
 
-#user-greeting {
+#time-greeting {
     font-size: 21px;
     font-weight: normal;
     color: var(--fg-color);
