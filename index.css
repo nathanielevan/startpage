@@ -30,13 +30,13 @@ body {
 }
 
 #time-greeting {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: normal;
     color: var(--fg-color);
 }
 
 #current-time {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: normal;
     color: var(--fg-highlight);
 }
