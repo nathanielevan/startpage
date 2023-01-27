@@ -4,8 +4,10 @@
     --fg-highlight: #d8a657; /* foreground color for "highlighted" items */
     --pane-bg-color: #32302f; /* background color for panes e.g. search bar and link containers */
     --button-color: #45403d; /* background color for buttons */
-    --text-input-underline-unfocused: #7c6f64; /* underline color for text input when not focused */
-    --text-input-underline-focused: var(--fg-highlight); /* underline color for text input when focused */
+    --text-input-underline-color: #7c6f64; /* underline color for text input when not focused */
+    --text-input-underline-focused-color: var(--fg-highlight); /* underline color for text input when focused */
+    --link-color: var(--fg-color); /* color for links while not hovered */
+    --link-hover-color: var(--fg-highlight); /* color for links when hovered */
     --shadow-color: #1d2021; /* shadow color */
 }
 
@@ -80,8 +82,8 @@ body {
 }
 
 #search-input {
-    background: linear-gradient(var(--text-input-underline-unfocused), var(--text-input-underline-unfocused)),
-                linear-gradient(var(--text-input-underline-focused), var(--text-input-underline-focused));
+    background: linear-gradient(var(--text-input-underline-color), var(--text-input-underline-color)),
+                linear-gradient(var(--text-input-underline-focused-color), var(--text-input-underline-focused-color));
     background-size: 100% 0.1em, 0 0.1em;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -146,12 +148,12 @@ a {
     background-position: 0 100%;
     background-repeat: no-repeat;
     transition: background-size 250ms, color 250ms;
-    color: var(--fg-color);
+    color: var(--link-color);
 }
 
 a:hover > .link-text {
     background-size: 100% 0.1em;
-    color: var(--fg-highlight);
+    color: var(--link-hover-color);
 }
 
 @media (max-width: 650px) {
