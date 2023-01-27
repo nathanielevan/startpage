@@ -100,7 +100,7 @@ body {
 }
 
 #search-button {
-    padding: 0.6em 12px;
+    padding: 0.6em 10px;
     width: 100%;
     font-family: inherit;
     font-size: inherit;
@@ -169,6 +169,7 @@ a:hover > .link-text {
         width: 100%;
 
     }
+
     #links {
         grid-template-columns: 1fr;
     }
