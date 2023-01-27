@@ -21,7 +21,7 @@ body {
 #main-container {
     margin: auto;
     display: flex;
-    width: min(640px, 85%);
+    width: min(700px, 85%);
     padding: min(15vw, 30px) 0;
     box-sizing: border-box;
     min-height: inherit;
