@@ -107,6 +107,7 @@ body {
     outline: none;
     color: var(--fg-color);
     padding: 0.6em 0;
+    /* min-width: 1px; */
     width: 100%;
     font-family: inherit;
     font-size: inherit;
