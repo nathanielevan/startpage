@@ -99,7 +99,7 @@ body {
 #search-input {
     background: linear-gradient(var(--text-input-underline-color), var(--text-input-underline-color)),
                 linear-gradient(var(--text-input-underline-focused-color), var(--text-input-underline-focused-color));
-    background-size: 100% 0.1em, 0 0.1em;
+    background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
     transition: background-size 400ms ease;
@@ -113,7 +113,7 @@ body {
 }
 
 #search-input:focus {
-    background-size: 0 0.1em, 100% 0.1em;
+    background-size: 0 1px, 100% 1px;
 }
 
 #search-button {
@@ -159,7 +159,7 @@ a {
     display: inline-block;
     padding: 2px 0px;
     background: linear-gradient(var(--fg-highlight), var(--fg-highlight));
-    background-size: 0 0.1em;
+    background-size: 0 1px;
     background-position: 0 100%;
     background-repeat: no-repeat;
     transition: background-size 250ms, color 250ms;
@@ -167,7 +167,7 @@ a {
 }
 
 a:hover > .link-text {
-    background-size: 100% 0.1em;
+    background-size: 100% 1px;
     color: var(--link-hover-color);
 }
 
