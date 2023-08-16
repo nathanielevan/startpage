@@ -151,13 +151,13 @@ ul {
 a {
     text-decoration: none;
     display: inline-block;
-    padding: 2px 0px;
+    padding: min(1vw, 2px) 0px;
     width: 100%;
 }
 
 .link-text {
     display: inline-block;
-    padding: 2px 0px;
+    padding: min(1vw, 2px) 0px;
     background: linear-gradient(var(--fg-highlight), var(--fg-highlight));
     background-size: 0 1px;
     background-position: 0 100%;
