@@ -1,5 +1,5 @@
 # startpage
-Custom browser startpage made by Nathaniel Evan. Inspired by various sources. Made with vanilla HTML-CSS-JS and designed with responsiveness in mind, based on Gruvbox Material colours by [@sainnhe](https://github.com/sainnhe). As seen in [this Reddit post](https://www.reddit.com/r/startpages/comments/wagyek/my_first_custom_startpage_based_on_gruvbox/) (for verification purposes).
+Custom browser startpage made by Nathaniel Evan. Inspired by various sources. Made with vanilla HTML-CSS-JS and designed with responsiveness in mind, based on Gruvbox colours by [@sainnhe](https://github.com/sainnhe). As seen in [this Reddit post](https://www.reddit.com/r/startpages/comments/wagyek/my_first_custom_startpage_based_on_gruvbox/) (for verification purposes).
 
 Live preview can be accessed [here](https://nathanielevan.github.io/startpage/).
 
